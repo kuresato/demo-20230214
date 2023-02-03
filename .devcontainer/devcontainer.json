@@ -25,7 +25,8 @@
 			"extensions": [
 				"vscjava.vscode-java-pack",
 				"vmware.vscode-boot-dev-pack",
-				"snyk-security.snyk-vulnerability-scanner"
+				"snyk-security.snyk-vulnerability-scanner",
+				"mhutchie.git-graph"
 			]
 		}
 	}
