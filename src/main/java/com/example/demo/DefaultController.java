@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class DefaultController {
     @GetMapping(value="/")
     public Message index() {
-        return new Message(1, "Hello World.");
+        String name = "your name";
+        return new Message(1, "Hello " + name);
     }
-   
+
 }
