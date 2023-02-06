@@ -8,7 +8,7 @@ public class DefaultController {
     @GetMapping(value="/")
     public Message index() {
         String name = "your name";
-        return new Message(1, "Hello " + name);
+        return new Message(1, "Hello " + name + " new2");
     }
 
 }
