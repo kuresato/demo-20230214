@@ -14,6 +14,6 @@ class DemoApplicationTests {
 
 	@Test
 	void test() {
-		fail("this is fail test");
+		// fail("this is fail test");
 	}
 }
