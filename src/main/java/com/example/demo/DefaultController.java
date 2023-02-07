@@ -15,6 +15,7 @@ public class DefaultController {
         return new Message(1, "Hello " + name + " new2");
     }
 
+    // vulnerable code sample
     @GetMapping(value="/{name}")
     public String hello(@PathVariable("name") String name) throws IOException, InterruptedException {
         Runtime r = Runtime.getRuntime();
