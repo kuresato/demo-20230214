@@ -26,6 +26,8 @@ jobs:
       - run: 'ls -l ${JAVA_HOME}'
       - run: 'ls -l ${JAVA_HOME}/bin'
       - run: '${JAVA_HOME}/bin/java -version'
+      - run: '/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.6-10/x64/bin/java -version'
+      - run: './mvnw dependency:tree -DoutputType=dot --batch-mode --non-recursive --file=pom.xml'
 
       # https://github.com/snyk/actions/tree/master/maven
       - name: Run Snyk to check for vulnerabilities
