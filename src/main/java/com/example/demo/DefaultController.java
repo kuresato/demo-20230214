@@ -24,4 +24,8 @@ public class DefaultController {
         p.destroy();
         return null;
     }
+
+    private String hoge() {
+        return null;
+    }
 }
