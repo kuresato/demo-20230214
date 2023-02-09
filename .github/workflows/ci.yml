@@ -25,7 +25,7 @@ jobs:
 
       - run: 'ls -l ${JAVA_HOME}'
       - run: 'ls -l ${JAVA_HOME}/bin'
-      - run: 'ls -l ${JAVA_HOME}/bin/java -version'
+      - run: '${JAVA_HOME}/bin/java -version'
 
       # https://github.com/snyk/actions/tree/master/maven
       - name: Run Snyk to check for vulnerabilities
